@@ -94,6 +94,7 @@ main { padding-top: 40px; padding-bottom: 48px; }
   .container { width: calc(100% - 64px); }
   .home-layout { grid-template-columns: minmax(0, 1fr) 300px; gap: 40px; }
   .photo img { width: 300px; }
+  .research-photo img { width: 300px; }
   .site-nav { gap: 18px; }
 }
 @media (max-width: 980px) {
@@ -105,6 +106,8 @@ main { padding-top: 40px; padding-bottom: 48px; }
   .home-layout { grid-template-columns: 1fr; gap: 28px; }
   .photo { max-width: 350px; }
   .photo img { width: 100%; }
+  .research-photo { max-width: 350px; }
+  .research-photo img { width: 100%; }
 }
 @media (max-width: 600px) {
   .container { width: calc(100% - 40px); }
